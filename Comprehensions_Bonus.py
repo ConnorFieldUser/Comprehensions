@@ -41,7 +41,7 @@ def string_to_float(temp_data):
 
 new_temp = string_to_float(watertemp)
 
-# print(new_temp)
+print(new_temp)
 
 
 def cels_to_fahr(templist):
@@ -50,11 +50,10 @@ def cels_to_fahr(templist):
 
 fin_temp = cels_to_fahr(watertemp)
 
-print(fin_temp)
+# print(fin_temp)
 
 
 # Create a dictionary with Date as the key and Wave Height as the value
-w_hight_day = {row[5].replace('\n', ''): row[1]
-               for row in ff_ds}
 
-print(w_hight_day)
+
+# print(w_hight_day)
