@@ -41,7 +41,7 @@ def string_to_float(temp_data):
 
 new_temp = string_to_float(watertemp)
 
-# print(new_temp)
+print(new_temp)
 
 
 def cels_to_fahr(templist):
@@ -58,3 +58,12 @@ w_hight_day = {row[5].replace('\n', ''): row[1]
                for row in ff_ds}
 
 print(w_hight_day)
+
+dayta_set = [row[5].replace('\n', '')[-2:] for row in ff_ds]
+
+print(dayta_set)
+# wave_day_average = {for day in dayta_set}
+
+
+homework_grades = {'Gale': {'Homework 1': 88, 'Homework 2': 76}, 'Jordan': {'Homework 1': 92, 'Homework 2': 87},
+                   'Peyton': {'Homework 1': 84, 'Homework 2': 77}, 'River': {'Homework 1': 85, 'Homework 2': 91}}
