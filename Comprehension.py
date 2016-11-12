@@ -16,7 +16,7 @@ def vwl_rmvr(string):
     return ''.join(n_vwl_str)
 # Removes vowels
 
-print(vwl_rmvr("Comprehensions are the greatest!"))
+print(vwl_rmvr("Comprehensions are the greatest!\n"))
 
 
 # Dataset formating =
@@ -41,7 +41,10 @@ def string_to_float(temp_data):
 
 new_temp = string_to_float(watertemp)
 
+print("Tempature list:")
 print(new_temp)
+
+print("")
 
 
 def cels_to_fahr(templist):

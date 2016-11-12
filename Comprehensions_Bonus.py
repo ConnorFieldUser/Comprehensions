@@ -50,8 +50,8 @@ def cels_to_fahr(templist):
 
 fin_temp = cels_to_fahr(watertemp)
 
-# print(fin_temp)
-
+print(fin_temp)
+print("")
 
 # Create a dictionary with Date as the key and Wave Height as the value
 
